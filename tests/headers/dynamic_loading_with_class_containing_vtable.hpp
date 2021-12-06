@@ -8,6 +8,7 @@ class Base {
 
   void some_function();
   virtual void some_other_function();
+  virtual int number(int);
 };
 
 class Derived final : public Base {
@@ -18,4 +19,5 @@ class Derived final : public Base {
 
   void some_function();
   void some_other_function();
+  int number(int);
 };
